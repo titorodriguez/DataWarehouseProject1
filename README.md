@@ -92,8 +92,11 @@ DataWarehouseProject1/
 ## 🙏 Acknowledgment
 
 This project is based on the original work by **Baraa Khatib Salkini** (**Data With Baraa**). Special thanks for sharing these materials, which were instrumental in building this Data Warehouse example. All resources used are freely available and open-access.
+
 - ✅ **SQL Data Warehouse Project:** [Course Link](https://youtu.be/SSKVgrwhzus) | [Download Materials](https://www.datawithbaraa.com/sql-introduction/advanced-sql-project/) | [GIT Repo](https://github.com/DataWithBaraa/sql-data-warehouse-project)
-- ✅ **YouTube channel:** [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
+- ✅ **YouTube Channel (Data with Baraa):**
+
+[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
 
 ---
 
