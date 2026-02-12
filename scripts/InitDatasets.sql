@@ -5,7 +5,7 @@
 ====================================================================================================
 
 Description:
-    This script creaetes the new database 'DataWarehouse'.
+    This script creates the new database 'DataWarehouse'.
     Additionally, the script set up the schemas: 'Bronze', 'Silver', and 'Gold'
 
 WARNING:

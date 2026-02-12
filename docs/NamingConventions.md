@@ -24,6 +24,18 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ## **Table Naming Conventions**
 - **SourceSystem**: When the source is composed of initials, they will be in capital letters.
 
+## **Objects Name**
+  - Store Procedures must start with sp prefix (e.g. spNewReport)
+  - Functions must start with fn prefix (e.g. fnUpdateAmount)
+  - Views must start with vw prefix (e.g. vwCustomers)
+  
+## **Files Name**
+- Assign file's name with the following standard: SQLCommandType_DataBaseInitial(s)_SchemaInitial(s)_Object/Name e.g.:
+  - File to create new CRMCustInfo Table in DataWarehouse DB within Bronze Schema: DDL_DW_B_TblCRMCustInfo.sql
+  - File to alter CRMPrdInfo table in DataWarehouse DB within Bronze Schema: DDL_DW_B_AltCRMPrdInfo.sql
+  - File to create a new sp in DataWarehouse DB within dbo Schema: DML_DW_dbo_spNewReport.sql
+  - File to modifiy a function in DataWarehouse DB within dbo Schema: DML_DW_dbo_fnUpdateAmount.sql
+
 ### **Bronze Rules**
 - All names must start with the source system name, and table names must match their original names without renaming.
 - **`<sourcesystem><entity>`**  
@@ -54,6 +66,9 @@ This document outlines the naming conventions used for schemas, tables, views, c
 | `Dim`       | Dimension table                  | `DimCustomer`, `DimProduct`              |
 | `Fact`      | Fact table                       | `FactSales`                              |
 | `Report`    | Report table                     | `ReportCustomers`, `ReportSalesMonthly`  |
+| `sp`        | Store Procedure                  | `spNewReport`, `spUploadInfo`            |
+| `fn`        | Function                         | `fnUpdateAmount`, `fnConvertData`        |
+| `vw`        | View                             | `vwCustomers`, `vwSupliers`              |
 
 ## **Column Naming Conventions**
 
